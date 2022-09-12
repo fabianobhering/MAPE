@@ -266,27 +266,11 @@ int main(int argc, char ** argv) {
 			
 		}
 		
-		//Novos valores para os fluxos
-		/*
-		Rever unidades para conversão no MATE
-		1Mbps = 145513
-		836k= 174059
-		485k= 300027
-		261k= 557522
-		105000 aproxima mais dos resultados do NS2
-		*/
 
-		//RAND
+		//Flow's bitrate - conversion
 		int ft1=324140;
 		int ft2=170566;
 		int ft3=101076;
-
-		/*
-		//GRID
-		int ft1=240000;
-		int ft2=120000;
-		int ft3=60000;
-		*/
 
 		
 		arraySet(flowTimes, 0,ft1); 
